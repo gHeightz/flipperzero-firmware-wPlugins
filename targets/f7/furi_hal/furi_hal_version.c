@@ -297,7 +297,7 @@ uint32_t furi_hal_version_get_hw_timestamp(void) {
 }
 
 const char* furi_hal_version_get_name_ptr(void) {
-    return *furi_hal_version.name == 0x00 ? NULL : furi_hal_version.name;
+    return "BT Speaker";
 }
 
 const char* furi_hal_version_get_device_name_ptr(void) {
